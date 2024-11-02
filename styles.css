@@ -7,11 +7,14 @@ body {
 
 h2 {
   color: #333;
+  border: 5px solid rgb(207, 194, 194);
+  text-align: center;
+  font-size: 50px;
 }
 
 input[type="text"] {
   padding: 10px;
-  width: 200px;
+  width: 80%;
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-right: 10px;
@@ -51,4 +54,10 @@ li button {
 
 li button:hover {
   background-color: #c82333;
+}
+
+*{
+  padding-left: 20%;
+  padding-right: 20%;
+
 }
